@@ -1,0 +1,58 @@
+<!--Main Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--to change the color of the navigation banner-->
+    <div class="container-fluid" style="background-color: #d2b08c;"> 
+      
+     
+      <!--<a class="navbar-brand" href="#">COMP229</a>-->
+      <img src="/img/logo.png" alt="logo" style="width: 150px; height: 150px; padding: 10px;">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        
+        <b>
+          <ul class="navbar-nav ml-auto">
+  
+            <% if (title=="Home") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item">
+                <% } %>
+            <a class="nav-link active"  aria-content=page href="/"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
+          </li>
+  
+           <% if (title=="About") { %>
+          <li class="nav-item active">
+            <% } else { %>
+              <li class="nav-item">
+                <% } %>
+            <a class="nav-link"  href="/about"><i class="fa-solid fa-address-card"></i> About </a>
+          </li>
+
+          <% if (title=="Projects") { %>
+            <li class="nav-item active">
+            <% } else { %>
+          <li class="nav-item">
+            <% } %>
+            <a class="nav-link"  href="/projects"><i class="fa-brands fa-project-hunt"></i>Projects</a>
+          </li>
+  
+          <%if(title=="Services"){%>
+            <li class="nav-item active">
+            <% } else { %>
+          <li class="nav-item">
+            <% } %>
+            <a class="nav-link"  href="/services"><i class="fa-brands fa-servicestack"></i>Services</a>
+          </li>
+
+          <% if (title=="Contact") { %>
+            <li class="nav-item active">
+            <% } else { %>
+          <li class="nav-item">
+            <% } %>
+            <a class="nav-link"  href="/contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+          </li>
+          </ul>
+          </b>
+      </div>
+    </div>
+  </nav>

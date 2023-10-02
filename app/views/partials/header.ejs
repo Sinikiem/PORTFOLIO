@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+        <style>
+    /* style for navigation bar */
+       /*.navbar {
+        float: left;
+       } */
+       ul.navbar-nav {
+            list-style: none;
+            display: inline; 
+            float: right;
+            font-size:20px;
+            
+        }
+        
+        ul.navbar-nav li {
+            display: inline-block; /* Make the list items display inline */
+        }
+        a:link {
+    text-decoration: none;
+}
+
+
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 30;
+  background-color: #ecebe5;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* style for home page */
+.about-btn {
+  background-color: #d2b08c; 
+  color: #fff; 
+  border: none;
+  padding: 20px 40px; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease-in-out; 
+  margin-bottom: 70px;
+}
+
+.about-btn:hover {
+  background-color: #dbc9bb;
+}
+
+.mission-statement {
+  font-size: 25px; 
+  padding: 40px; 
+}
+
+.mission-statement h2 {
+  font-size: 45px; 
+  margin-bottom: 30px; 
+  text-align: center;
+}
+
+.mission-statement ul {
+  list-style-type: disc; 
+  padding-left: 60px; 
+}
+
+.mission-statement li {
+  font-size: 25px;
+  margin-bottom: 8px; 
+}
+
+
+/* style for about me page */
+.jumbotron {
+  padding: 40px;
+}
+
+.personal {
+  padding: 40px; 
+}
+.personal h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.personal p{
+    font-size: 25px;
+    padding: 40px;
+}
+.resume-btn {
+  background-color: #d2b08c; 
+  color: #fff; 
+  border: none;
+  padding: 20px 40px; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease-in-out; 
+  margin-bottom: 70px;
+}
+
+.resume-btn:hover {
+  background-color: #dbc9bb;
+}
+
+/* style for projects page */
+.project-info {
+    padding: 40px;
+}
+.project-info h2 {
+    font-size: 45px; 
+    margin-bottom: 30px; 
+}
+.project-info p {
+    font-size: 25px;
+    padding: 40px;
+}
+
+/* style for services page */
+.service1 h2 {
+    font-size: 45px;
+    padding: 40px;
+}
+.service1 p {
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.service2 h2 {
+    font-size: 45px;
+    padding: 40px;
+}
+.service2 p {
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.service3 h2 {
+    font-size: 45px;
+    padding: 40px;
+}
+.service3 p {
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+/* style for contact page */
+.row {
+  margin-top: 20px;
+  padding: 40px;
+  padding-bottom: 70px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #d2b08c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #dbc9bb;
+}
+
+.form-control:focus {
+  border-color: #d2b08c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(210, 176, 140, 0.5);
+}
+
+.col-md-6 h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  background-color: #d2b08c; 
+  color: #fff; 
+  border: none;
+  padding: 20px 40px; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease-in-out; 
+  margin-bottom: 70px;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto; /*to make it more noticeable */
+  margin-right: auto; 
+}
+
+.home-btn:hover {
+  background-color: #dbc9bb;
+}
+
+main {
+  flex: 1;
+}
+
+ footer {
+            background-color: #d2b08c;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        footer .navbar-text {
+            margin-bottom: 0;
+        }
+
+
+    </style>
+</head>
+<body>
